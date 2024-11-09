@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryrbk000",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "68df966a-03f8-47fd-acf1-cd92d9476dc0",
+		"tenantId": "9d59ced2-64ec-473a-b63c-328026ae79e6"
+	}
+}
