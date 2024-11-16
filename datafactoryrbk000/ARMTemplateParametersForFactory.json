@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactoryrbk000"
+		},
+		"AzureSqlDatabaserbk000_LS_password": {
+			"value": ""
+		},
+		"AzureSqlDatabaserbk000_LS_Dynamic_password": {
+			"value": ""
+		},
+		"Azuredatalakerbk_LS_accountKey": {
+			"value": ""
+		},
+		"Azuredatalakerbk_LS_Dynamic_accountKey": {
+			"value": ""
+		},
+		"AccountKey_LS_properties_typeProperties_url": {
+			"value": "https://datalakerbk.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
+			"value": "https://KeyVaultRBK.vault.azure.net/"
+		},
+		"AzureSqlDatabaserbk000_LS_properties_typeProperties_server": {
+			"value": "sqlserverrbk000.database.windows.net"
+		},
+		"AzureSqlDatabaserbk000_LS_properties_typeProperties_database": {
+			"value": "sqldatabaserbk000"
+		},
+		"AzureSqlDatabaserbk000_LS_properties_typeProperties_userName": {
+			"value": "admin-user"
+		},
+		"AzureSqlDatabaserbk000_LS_Dynamic_properties_typeProperties_server": {
+			"value": "@{linkedService().ServerName}"
+		},
+		"AzureSqlDatabaserbk000_LS_Dynamic_properties_typeProperties_database": {
+			"value": "@{linkedService().DatabaseName}"
+		},
+		"AzureSqlDatabaserbk000_LS_Dynamic_properties_typeProperties_userName": {
+			"value": "admin-user"
+		},
+		"Azuredatalakerbk_LS_properties_typeProperties_url": {
+			"value": "https://datalakerbk.dfs.core.windows.net/"
+		},
+		"Azuredatalakerbk_LS_Dynamic_properties_typeProperties_url": {
+			"value": "https://datalakerbk.dfs.core.windows.net/"
+		},
+		"SAS_LS_sasUri": {
+			"value": ""
+		},
+		"AzureDatabricks_LS_properties_typeProperties_existingClusterId": {
+			"value": "1110-114346-sdb64g38"
+		}
+	}
+}
